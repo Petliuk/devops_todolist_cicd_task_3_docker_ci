@@ -76,4 +76,4 @@ jobs:
           context: ./src
           file: ./src/Dockerfile
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/todolist:${{ github.sha }}
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/todoapp:${{ github.sha }}
